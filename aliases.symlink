@@ -59,7 +59,6 @@
 
 # Dev {{{
 
-  alias matlab='/Applications/MATLAB_R2014b.app/bin/matlab'
   # Alias for custom-coloring of ag
   alias ag='ag --color-line-number 34 --color-match 36 --color-path 32'
   # Shortcut for python interpreter
@@ -84,12 +83,7 @@
   alias g='git status'
   # edit .gitconfig
   alias vgrc="vim ~/.gitconfig"
-  # edit .hgrc
-  alias vhgrc="vim ~/.hgrc"
-  # cd dev
-  alias cdd="cd $DEV"
   # copy current directory to htdocs to run php server locally with MAMP
-  alias pphp="sudo rm -r /Applications/MAMP/htdocs && mkdir /Applications/MAMP/htdocs && cp -r ./* /Applications/MAMP/htdocs"
 
 # }}}
 
@@ -106,13 +100,6 @@
   alias vtex="find . -iname '*.tex' -exec vim {} \;"
   # vim the .tex files in the current directory
   alias mtex="find . -iname '*.tex' -exec vim {} \;"
-
-# }}}
-
-# Webdev {{{
-
-  # cd my website
-  alias cdsite="cd $CODE/willmayner.com/"
 
 # }}}
 
