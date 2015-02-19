@@ -43,13 +43,11 @@
   changed = yellow
   untracked = cyan
 [user]
-  name = Will Mayner
-  email = wmayner@gmail.com
+  name = Jamie Gomez-Ramirez
+  email = borriquear@gmail.com
 [core]
-  excludesfile = /Users/will/.gitignore
+  excludesfile = /home/jamie/.gitignore
   autocrlf = input
-[credential]
-  helper = osxkeychain
 [merge]
   tool = vimdiff
   conflictstyle = diff3
